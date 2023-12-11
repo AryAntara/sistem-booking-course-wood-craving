@@ -1,7 +1,7 @@
 <?= $this->extend('layouts/index') ?>
 <?= $this->section('content') ?>
     <div class="max-w-screen-xl mx-auto px-5">
-    <main class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-8 mt-24 mb-32">
+    <main class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-8 md:mt-4 sm:mt-8 mt-24 mb-32">
         <div class="py-6 md:order-1 hidden md:block">
             <img alt="Wood house" width="1000" height="424"
                  src="<?= base_url("/images/woodcutter.jpg") ?>" loading="eager" decoding="async">

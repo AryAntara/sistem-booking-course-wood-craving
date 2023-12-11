@@ -74,7 +74,7 @@
                     </ul>
                     <div class="flex mt-8">
                         <a href="/"
-                           class="rounded text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200 w-full px-5 py-2.5 bg-white border-2 border-black hover:bg-gray-100 text-black">Get
+                           class="rounded text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200 w-full px-5 py-2.5 bg-white border-2 border-black hover:bg-gray-100 text-black">
                             Beli
                         </a>
                     </div>
