@@ -4,8 +4,11 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
+    /**
+     * @return string
+     */
     public function index(): string
     {
-        return view('welcome_message');
+        return view('pages/home', ['page' => 'home']);
     }
 }
