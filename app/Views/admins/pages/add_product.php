@@ -27,11 +27,11 @@
                 <div class="form-group">
                     <label>Deskripsi</label>
                     <textarea class="form-control" name="product_description" required></textarea>
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-success">Simpan Product</button>
-                        <a href="<?= base_url('admins/product') ?>" class="btn btn-warning">Kembali ke Daftar
-                            Product</a>
-                    </div>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-success">Simpan Product</button>
+                    <a href="<?= base_url('admin/product') ?>" class="btn btn-warning">Kembali ke Daftar
+                        Product</a>
                 </div>
             </form>
         </div>

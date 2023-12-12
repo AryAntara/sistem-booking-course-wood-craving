@@ -40,7 +40,7 @@
         </div>
         <div class="column-12">
             <h3>Isi form dibawah untuk Tambah Product :</h3>
-            <form action="<?= base_url('admins/product/update/') . $product_entry['id_product'] ?>" method="post"
+            <form action="<?= base_url('admin/product/update/') . $product_entry['id_product'] ?>" method="post"
                   enctype="multipart/form-data">
                 <div class="form-group">
                     <label>Nama Product</label>
@@ -68,7 +68,7 @@
                 </div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-success">Perbaharui Product</button>
-                    <a href="<?= base_url('admins/product') ?>" class="btn btn-warning">Kembali ke Daftar Product</a>
+                    <a href="<?= base_url('admin/product') ?>" class="btn btn-warning">Kembali ke Daftar Product</a>
                 </div>
             </form>
         </div>

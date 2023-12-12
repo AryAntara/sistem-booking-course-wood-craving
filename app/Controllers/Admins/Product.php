@@ -73,7 +73,7 @@ class Product extends BaseController
         $image_path = ROOTPATH . '/public/images/';  
         $filename = $title . "_" . rand() . '.' . $image->getExtension();        
         $image->move($image_path, $filename);                
-                
+
         $product = [
             'product_name' => $title,
             'product_price' => $price,
@@ -82,7 +82,7 @@ class Product extends BaseController
         ];
 
         $this->productModel->insert($product);
-        return redirect()->back();
+        return redirect(base_url('admin/product'));
     }
 
     /**
@@ -106,18 +106,26 @@ class Product extends BaseController
         $title = $this->request->getPost('product_name');
         $price = $this->request->getPost('product_price');
         $desc = $this->request->getPost('product_description');
-        $image = $this->request->getPost('product_image');
+
+        try {
+            $image = $this->request->getFile('product_image');
+        } catch (\Exception $e){
+            $image = null;
+        }
 
         $oldData = $this->productModel->where('id_product', $id)->first();
         $filename = $oldData['product_image'];
 
+
         // move image into public directory
-        if($image) {
-            $image = $this->request->getFile('product_image');
+        if($image->isValid()) {
+//            $image = $this->request->getFile('product_image');
             $image_path = ROOTPATH . '/public/images/';
             $filename = $title . "_" . rand() . '.' . $image->getExtension();
             $image->move($image_path, $filename);
         }
+
+
 
         $product = [
             'product_name' => $title,
