@@ -9,6 +9,7 @@ $routes->get('/', 'Home::index');
 $routes->get('/course', 'Course::index');
 $routes->get('/about', 'About::index');
 $routes->get('/contact', 'Contact::index');
+$routes->post('/send/email', 'Contact::send_email');
 
 /**
  * Admin routing

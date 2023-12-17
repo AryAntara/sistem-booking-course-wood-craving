@@ -9,7 +9,7 @@
 <!--    <script type="module" src="--><?php //= base_url('js/page.563aed27.js')?><!--"></script>-->
 </head>
 
-<body>    
+<body>
     <?= $this->renderSection('content') ?>
     <?= $this->include('includes/footer') ?>
 </body>

@@ -17,11 +17,7 @@
                 Guru - guru di woodstyle telah mempunyai banyak pengalaman dalam mengukir kayu.
             </p>
             <div class="mt-8 flex flex-col sm:flex-row gap-3">
-                <a href="https://web3templates.com/" target="_blank" rel="noopener"
-                   class="rounded text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200 px-5 py-2.5 bg-black text-white hover:bg-gray-800 border-2 border-transparent">
-                    Ayo Mulai
-                </a>
-                <a href="https://github.com/surjithctly/astroship" rel="noopener" target="_blank"
+                <a href="<?= base_url('/course') ?>"
                    class="rounded text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200 px-5 py-2.5 bg-white border-2 border-black hover:bg-black hover:text-white text-black">
                     Lihat Kursus
                 </a>
@@ -87,13 +83,13 @@
     </div>
     <div class="bg-black px-20 py-20 mt-20 mx-auto max-w-5xl rounded-lg flex flex-col items-center text-center">
         <h2 class="text-white text-3xl md:text-6xl">WoodStyle Kursus.</h2>
-        <p class="text-slate-500 mt-4 text-lg md:text-xl">
+        <p class="text-gray-300 mt-4 text-lg md:text-xl">
             Ayo berkontribusi dalam pelestarian budaya lokal bali agar tidak punah kedepannya.
         </p>
         <div class="flex mt-5">
-            <a href="#"
+            <a href="<?= base_url('/course') ?>"
                class="rounded text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200 px-5 py-2.5 bg-white text-black border-2 border-transparent">
-                Ayo Mulai
+                Lihat kursus
             </a>
         </div>
     </div>

@@ -50,7 +50,7 @@
             <div class="w-full aspect-square">
                 <img alt="Team"
                      class="w-full h-full object-cover rounded transition  group-hover:-translate-y-1 group-hover:shadow-xl"
-                     width="580" height="580" src="https://t3.ftcdn.net/jpg/03/53/11/00/360_F_353110097_nbpmfn9iHlxef4EDIhXB1tdTD0lcWhG9.jpg" loading="lazy" decoding="async">
+                     width="580" height="580" src="<?= base_url('/images/eka_laksana.jpg') ?>" loading="lazy" decoding="async">
             </div>
 
             <div class="mt-4 text-center">

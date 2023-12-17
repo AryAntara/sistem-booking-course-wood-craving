@@ -43,7 +43,7 @@
                     <?php } ?>
                 </ul>
                 <div class="flex mt-8">
-                    <a href="#"
+                    <a href="https://wa.me/62895410971127?text=<?= urlencode("Aku ingin beli kursus ". $product_entry['product_name']) ?>"
                        class="rounded text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200 w-full px-5 py-2.5 bg-black text-white hover:bg-gray-800 border-2 border-transparent">
                         Beli
                     </a>
