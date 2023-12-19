@@ -28,7 +28,8 @@
 <meta name="twitter:site" content="@web3templates">
 <meta name="twitter:creator" content="@surjithctly">
 
-<link rel="stylesheet" href="<?= base_url("/assets/about.9ebdc83a.css") ?>"/>
+<!--<link rel="stylesheet" href="--><?php //= base_url("/assets/about.9ebdc83a.css") ?><!--"/>-->
+<script src="https://cdn.tailwindcss.com"></script>
 <link rel="stylesheet" href="<?= base_url("/assets/complete-guide-fullstack-development.6608ac60.css") ?>"/>
 <script type="module" src="<?= base_url('js/page.563aed27.js') ?>"></script>
 <style>
