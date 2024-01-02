@@ -82,7 +82,7 @@ class Product extends BaseController
         ];
 
         $this->productModel->insert($product);
-        return redirect(base_url('admin/product'));
+        return redirect()->back();
     }
 
     /**
